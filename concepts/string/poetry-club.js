@@ -38,7 +38,8 @@ export function frontDoorResponse(line) {
  * @returns {string} the front door password
  */
 export function frontDoorPassword(word) {
-  return 
+    const word2 = word.charAt(0).toUpperCase() + word.slice(1);
+    return word2;
 }
 
 /**
